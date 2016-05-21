@@ -1,0 +1,1 @@
+Copyright &copy; 2015 | All Right Reserved | This site is owned by <a href="http://absoftbd.com"> AB Software Limited </a>

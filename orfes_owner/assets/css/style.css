@@ -1,0 +1,109 @@
+/* 
+    Document   : style
+    Created on : Jun 20, 2015, 10:58:27 AM
+    Author     : Md. Shohrab Hossain
+    Description: All Page Style
+*/ 
+.sh_title{padding:10px 0;margin:0;}
+.sh_link{color:#3B5998;}
+.sh_circle{border-radius:50px;-moz-border-radius:50px;-o-border-radius:50px;-webkit-border-radius:50px;-ms-border-radius:50px;}
+.sh_round{border-radius:6px;-moz-border-radius:6px;-o-border-radius:6px;-webkit-border-radius:6px;-ms-border-radius:6px;}
+.sh_transition{transition:all .5s ease-in-out 0s; -moz-transition:all .5s ease-in-out 0s;-webkit-transition:all .5s ease-in-out 0s;}
+.sh_menu{background:#EFEFEF}
+.sh_form{padding:0 20px;}
+/*==================================ends of common style===============================================*/
+body{background:url('../images/icons/bg.jpg') fixed repeat center #2D3940;  font-weight:normal;overflow-x:hidden;}
+/*starts of header*/
+header{background:#FEFEFE }
+#header{width:70.8%;height:170px;margin:0 auto;}
+#header .logo img{height:120px;}
+@media screen and (max-width:768px){#header .logo{display:block;text-align:center;position:relative}}
+.mobile_apps ul{margin:0;line-height:100px}
+.mobile_apps ul li{padding:0}
+.mobile_apps li a img{width:80px;height:40px !important;}
+.navbar-default{background:none;box-shadow:none;}
+nav{border-radius:0 !important;box-shadow:none;z-index:1001;}
+nav li a, .navbar-brand{font-size:16px;font-weight:normal;text-shadow:none;}
+nav li a:hover{background:#EFEFEF !important;} 
+@media (max-width:1120px) and (min-width:980px){.navbar-brand,.navbar-nav > li > a{padding:15px 10px;font-size:15px}}
+@media (max-width:980px) and (min-width:890px){.navbar-brand,.navbar-nav > li > a{padding:15px 7px;font-size:14px}}
+@media screen and (max-width:890px) and (min-width:768px){.navbar-brand,.navbar-nav > li > a{padding:15px 6px;font-size:12px}}
+/*ends of header*/
+
+/*starts of content*/
+#main_wrapper{width:70%;margin:0% auto;}
+#content{float:left;width:100%;min-height:800px;padding:0 0 20px 0;background:#EFEFEF;}
+/*ends of content*/
+
+/*starts of footer*/
+footer{background:#FAFAFA}
+#footer{width:70%;min-height:50px;margin:0 auto;}
+#copyright{padding:5px 0;border-top:1px solid #EFEFEF;text-align:center;background:#EFEFEF}
+.social, .footer_menu{line-height:50px;}
+.social ul,.footer_menu ul{margin:10px 0;}
+.social li{border:1px solid #EFEFEF;width:30px;line-height:30px;text-align:center;}
+.social li:hover{background:#EFEFEF;}
+/*ends of footer*/
+@media (max-width:767px){
+    .navbar-collapse{background:#EFEFEF !important;}
+    #header, #main_wrapper,#footer{width:96% !important;}
+    #footer,#copyright,.social, .footer_menu{text-align:center;}
+    
+}
+/*==================================ends of main style===============================================*/
+ 
+/*------------------starts of home page style-------------------------*/
+.search{height:400px;padding:115px 0;background:url('../images/icons/home_search.jpg') no-repeat center #EFEFEF;}
+.search h3{margin:0;text-align:center;color:#fff}
+.search form{padding:0 0 20px 0;}
+.sh_search {margin-top:1px;padding:10px;background:#fff !important;} 
+.sh_search .media-first{width:40%;}
+#finalResult{padding: 10px;}
+/*-------------------ends of home page style--------------------------*/
+
+/*------------------starts of home page style-------------------------*/
+.search_advanced{height:400px;padding:115px 0;background:url('../images/icons/advanced_search.jpg') no-repeat center #EFEFEF;}
+.search_advanced h3{margin:0;text-align:center;color:#fff}
+.search_advanced form{padding:0 0 20px 0;} 
+.home_content .title{margin:0;padding:5px;background:#fff;}
+.article {padding:20px 0 0 0;}
+.article h4{margin:0;padding:5px;background:#fff;text-align:center;}
+.article p{padding:5px 0 0 0;margin:0;}
+/*-------------------ends of home page style--------------------------*/
+
+/*-------------------starts of search_nearest_restaurant--------------*/
+.search_restaurant h3{padding-bottom:10px;}
+.search_restaurant table{float:left;background:#FCFCFC;}
+.search_restaurant .result{padding:10px;margin-bottom:10px; color:green;}
+/*---------------------ends of search_nearest_restaurant--------------*/
+
+/*---------------------ends of signup--------------*/
+.signup{padding:10px 0 40px 0;height:auto}
+.signin i, .signup i{color:red}
+/*---------------------ends of signup--------------*/
+
+/*---------------------ends of signup--------------*/
+.signin{padding:20% 0 40px 0;height:auto}
+/*---------------------ends of signup--------------*/
+
+/*---------------------ends of profile --------------*/
+.profile .tab-content{background:#FCFCFC;}
+.profile .tab-pane{padding:10px}
+.profile img.banner{max-height:200px}
+.profile .restaurant_info{padding:20px;background:#FCFCFC;}
+/*ends*/
+.profile .category_item{margin-top:10px;border:1px solid #EFEFEF }
+.profile .media{margin-top:5px;background:#EFEFEF;}
+.profile .media-heading{color:#3D3D3D}
+.profile .media-right{min-width:65px;}
+.main_title{margin:0;padding:10px 0}
+/*---------------------ends of profile--------------*/
+
+/*---------------------ends of category --------------*/
+.category table{background:#fff}
+/*---------------------ends of category--------------*/ 
+
+
+ 
+
+
